@@ -1,0 +1,62 @@
+db.createCollection("Artistas")
+
+db.Artistas.insert( 
+[ 
+{ 
+"_idArtista": 1, 
+"Nombre": "Feid", 
+"Fecha Nacimiento": "19 agosto 1992", 
+"Pais": "Colombia", 
+"Ciudad": "Medellin", 
+"Genero": "Reggaeton" 
+}, 
+{ 
+"_idArtista": 2, 
+"Nombre": "Bless", 
+"Fecha Nacimiento": "27 enero 2000", 
+"Pais": "Colombia", 
+"Ciudad": "Itagui", 
+"Genero": "Reggaeton" 
+}, 
+{ 
+"_idArtista": 3, 
+"Nombre": "Elvis Crespo", 
+"Fecha Nacimiento": "30 julio 1971", 
+"Pais": "Estados Unidos", 
+"Ciudad": "Nueva York", 
+"Genero": "Merengue" 
+}, 
+{ 
+"_idArtista": 4, 
+"Nombre": "Romeo Santos", 
+"Fecha Nacimiento": "21 julio 1981", 
+"Pais": "Estados Unidos", 
+"Ciudad": "Nueva York", 
+"Genero": "Bachata" 
+}, 
+{ 
+"_idArtista": 5, 
+"Nombre": "Diomedes diaz", 
+"Fecha Nacimiento": "26 mayo 1957", 
+"Pais": "Colombia", 
+"Ciudad": "San Juan del Cesar", 
+"Genero": "Vallenato" 
+}, 
+{ 
+"_idArtista": 6, 
+"Nombre": "Victor Manuelle", 
+"Fecha Nacimiento": "27 septiembre 1968", 
+"Pais": "Estados unidos", 
+"Ciudad": "Nueva York", 
+"Genero": "Salsa" 
+},
+{
+"_idArtista": 7,
+"Nombre": "Ñengo Flow",
+"Fecha Nacimiento": "15 octubre 1981",
+"Pais": "Puerto Rico",
+"Ciudad": "Rio piedras",
+"Genero": "Reggaeton"
+}
+]
+)

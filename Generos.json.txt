@@ -1,0 +1,41 @@
+db.createCollection("Generos")
+
+db.Genero.insert(
+ [
+ {
+ "_id": 1,
+ "Nombre": "salsa",
+ "Año": "50s",
+ "Pais": "Estados Unidos",
+ "Ciudad": "Nueva York"
+ },
+ {
+ "_id": 2,
+ "Nombre": "merengue",
+ "Año": "40s XIX",
+ "Pais": "Republica Dominicana",
+ "Ciudad": "Republica Dominicana"
+ },
+ {
+ "_id": 3,
+ "Nombre": "Reggaeton",
+ "Año": "2000",
+ "Pais": "Puerto rico - Panama",
+ "Ciudad": "Puerto rico - Panama"
+ },
+ {
+ "_id": 4,
+ "Nombre": "Bachata",
+ "Año": "20s",
+ "Pais": "Republica dominicana",
+ "Ciudad": "Republica dominicana"
+ },
+ {
+ "_id": 5,
+ "Nombre": "Vallenato",
+ "Año": "70s",
+ "Pais": "Colombia",
+ "Ciudad": "Santa marta"
+ }
+ ]
+ )

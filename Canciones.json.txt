@@ -1,0 +1,68 @@
+db.createCollection("Canciones")
+
+db.Canciones.insert([{
+ "_idCancion" : 1,
+ "Nombre": "Proecia",
+ "Artista": "Ñengo Flow",
+ "Año": "2020",
+ "Genero": "Reggaeton"
+ },
+ {
+ "_idCancion" : 2,
+ "Nombre": "",
+musica> db.Canciones.insert([{
+ "_idCancion" : 1,
+ "Nombre": "Profecia",
+ "Artista": "Ñengo Flow",
+ "Album": "Profecia",
+ "Año": "2020",
+ "Genero": "Reggaeton"
+ },
+ {
+ "_idCancion" : 2,
+ "Nombre": "Si tu supieras",
+ "Artista": "Feid",
+ "Album": "Inter Shibuya-la mafia",
+ "Año": "2021",
+ "Genero": "Reggaeton"
+ },
+ {
+ "_idCancion" : 3,
+ "Nombre": "Ojitos rojos",
+ "Artista": "Bless",
+ "Album": "Siempre Blessd",
+ "Año": "2022",
+ "Genero": "Reggaeton"
+ },
+ {
+ "_idCancion" : 4,
+ "Nombre": "Nuestra Cancion",
+ "Artista": "Elvis Crespo",
+ "Album": "Suavemente",
+ "Año": "1998",
+ "Genero": "Merengue"
+ },
+ {
+ "_idCancion" : 5,
+ "Nombre": "Tengo Ganas",
+ "Artista": "Victor Manuelle",
+ "Album": "Tavesia",
+ "Año": "2004",
+ "Genero": "Salsa"
+ },
+ {
+ "_idCancion" : 6,
+ "Nombre": "La plata",
+ "Artista": "Diomedes Diaz",
+ "Album": "26 de mayo",
+ "Año": "1994",
+ "Genero": "Vallenato"
+ },
+ {
+ "_idCancion" : 7,
+ "Nombre": "Propuesta Indecente",
+ "Artista": "Romeo Santos",
+ "Album": "Formula, Vol.2",
+ "Año": "2014",
+ "Genero": "Bachata"
+ }])
